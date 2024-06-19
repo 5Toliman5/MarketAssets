@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  marketassetsapi:
+    container_name: marketassetsapi
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+
+volumes:
+  postgres_data:
