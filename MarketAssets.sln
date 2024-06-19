@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MarketAssets.Api", "MarketAssets.Api\MarketAssets.Api.csproj", "{65590807-EFDE-4646-BCA4-F961A97619FF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MarketAssets.Domain", "MarketAssets.Domain\MarketAssets.Domain.csproj", "{BEBCF211-962F-4C3D-B721-A57946307386}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MarketAssets.DataAccess", "MarketAssets.DataAccess\MarketAssets.DataAccess.csproj", "{A6F125D3-C304-46B3-9B68-A3C69C6A1B11}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MarketAssets.Fintacharts.Authentication", "MarketAssets.Fintacharts.Authentication\MarketAssets.Fintacharts.Authentication.csproj", "{395355E2-7418-4D66-95E1-77062AA03B78}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MarketAssets.Fintacharts.Historical", "MarketAssets.Fintacharts.Historical\MarketAssets.Fintacharts.Historical.csproj", "{612EA438-7B3B-4069-AE1E-4FE3D8A5A66A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MarketAssets.Fintacharts.RealTime", "MarketAssets.Fintacharts.RealTime\MarketAssets.Fintacharts.RealTime.csproj", "{6142EA16-13B2-4839-BD9D-3B285567FFDE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{65590807-EFDE-4646-BCA4-F961A97619FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65590807-EFDE-4646-BCA4-F961A97619FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65590807-EFDE-4646-BCA4-F961A97619FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65590807-EFDE-4646-BCA4-F961A97619FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEBCF211-962F-4C3D-B721-A57946307386}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEBCF211-962F-4C3D-B721-A57946307386}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEBCF211-962F-4C3D-B721-A57946307386}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEBCF211-962F-4C3D-B721-A57946307386}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6F125D3-C304-46B3-9B68-A3C69C6A1B11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6F125D3-C304-46B3-9B68-A3C69C6A1B11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6F125D3-C304-46B3-9B68-A3C69C6A1B11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6F125D3-C304-46B3-9B68-A3C69C6A1B11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{395355E2-7418-4D66-95E1-77062AA03B78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{395355E2-7418-4D66-95E1-77062AA03B78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{395355E2-7418-4D66-95E1-77062AA03B78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{395355E2-7418-4D66-95E1-77062AA03B78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{612EA438-7B3B-4069-AE1E-4FE3D8A5A66A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{612EA438-7B3B-4069-AE1E-4FE3D8A5A66A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{612EA438-7B3B-4069-AE1E-4FE3D8A5A66A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{612EA438-7B3B-4069-AE1E-4FE3D8A5A66A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6142EA16-13B2-4839-BD9D-3B285567FFDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6142EA16-13B2-4839-BD9D-3B285567FFDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6142EA16-13B2-4839-BD9D-3B285567FFDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6142EA16-13B2-4839-BD9D-3B285567FFDE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BBF2339D-52BE-4F75-8F31-D690ADE21CF7}
+	EndGlobalSection
+EndGlobal

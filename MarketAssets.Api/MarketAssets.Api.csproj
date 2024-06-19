@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <InvariantGlobalization>true</InvariantGlobalization>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.6" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.6" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="8.0.4" />
+    <PackageReference Include="RestSharp" Version="111.2.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MarketAssets.DataAccess\MarketAssets.DataAccess.csproj" />
+    <ProjectReference Include="..\MarketAssets.Domain\MarketAssets.Domain.csproj" />
+    <ProjectReference Include="..\MarketAssets.Fintacharts.Authentication\MarketAssets.Fintacharts.Authentication.csproj" />
+    <ProjectReference Include="..\MarketAssets.Fintacharts.Historical\MarketAssets.Fintacharts.Historical.csproj" />
+    <ProjectReference Include="..\MarketAssets.Fintacharts.RealTime\MarketAssets.Fintacharts.RealTime.csproj" />
+  </ItemGroup>
+
+</Project>
