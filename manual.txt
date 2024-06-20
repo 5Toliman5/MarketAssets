@@ -1,0 +1,8 @@
+Before running the application, it must be connected to a database via the DataAccess project and EntityFramework:
+$env:PostgresConnectionString="Server=localhost;Port=5432;Database=MarketAssets;User Id=postgres;Password=postgres;"; dotnet ef database update;
+this connection string must be equal to one written in appsettings.json.
+After this the application can be deployed to a web server(e.g. IIS) or in DOCKER:
+docker build -t marketassetsapi .
+docker-compose up
+Finally the application can be accessed by the default port if another is not specified: http://localhost:8080
+Use the Postman collection.
